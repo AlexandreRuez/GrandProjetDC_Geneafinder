@@ -1,23 +1,3 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Galerie</title>
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-</head>
-<body>
-<header>
-    <p>Header GENEAFINDER</p>
-</header>
-<hr>
-<section class="searchbar">
-    <p>Barre de recherche + stockage</p>
-</section>
-<hr>
 <nav id="Album_wrapper">
     <div id="Album_left">  </div>
     <ul id="Album_list">
@@ -83,15 +63,3 @@
     });
 
 </script>
-
-<hr>
-<section class=main>
-    <p>Main = galerie</p>
-</section>
-<hr>
-<footer>
-    <p>Footer GENEAFINDER</p>
-</footer>
-
-</body>
-</html>
