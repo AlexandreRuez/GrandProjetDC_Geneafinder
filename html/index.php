@@ -1,4 +1,8 @@
-<!doctype html>
+<?php
+	require_once './function.php';
+?>
+
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -8,20 +12,15 @@
     <title>Galerie</title>
 </head>
 <body>
-	<header>
-		<h1>Geneafinder</h1>
-	</header>
-	<section class="searchbar">
-		<p>Barre de recherche + stockage</p>
-	</section>
-	<nav>
-		<p>Nav = albums</p>
-	</nav>
-	<section class=main>
-		<p>Main = galerie</p>
-	</section>
-	<footer>
-		<p>Footer GENEAFINDER</p>
-	</footer>
+	<?php
+		getHeader();
+		getSearchbar();
+		getNav();
+		getMain_btn();
+		getMain_galerie();
+		getFooter();
+	?>
 </body>
 </html>
+
+
