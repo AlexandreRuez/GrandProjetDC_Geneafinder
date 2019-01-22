@@ -1,0 +1,72 @@
+#Album_wrapper {
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Album_left {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 20px 15px 0;
+    border-color: transparent #00D404 transparent transparent;
+}
+
+#Album_right {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 0 15px 20px;
+    border-color: transparent transparent transparent #00D404;
+}
+
+#Album_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+}
+
+#Album_add {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vw;
+}
+
+#Album_add i{
+    color: #00D404;
+}
+
+.navitem {
+    position: absolute;
+    left: -300px;
+    font-family: Helvetica;
+    font-size: 2vw;
+    align-items: center;
+    justify-content: space-around;
+    background-color: bisque;
+    padding: 2vw;
+    transition-duration: 1s;
+}
+
+@keyframes animleft {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#navitem_1,
+#navitem_2,
+#navitem_3,
+#navitem_4 {
+    position: inherit;
+    display: flex;
+    transition-duration: 1s;
+    animation: animleft 2s;
+}
