@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/ubuntu-r-webfont.woff),
+        url(../fonts/ubuntu-r-webfont.woff2);
+  }
+
+.main_btn {
+    display: flex;
+}
+
+.main_btn > a:visited,
+.main_btn > a {
+    background-color: #66cc00;
+    padding: .5em .5em;
+    margin: 2em;
+    font-family: 'Ubuntu';
+    border: 1px solid #fff;
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.main_btn > a:hover,
+.main_btn > a:focus,
+.main_btn > a:active {
+    border: 1px solid #66cc00;
+    background-color: #fff;
+    color: #66cc00;
+    transition: all .5s;
+}
+
+.main_btn > a > i {
+    margin: auto 5px auto 10px;
+}
