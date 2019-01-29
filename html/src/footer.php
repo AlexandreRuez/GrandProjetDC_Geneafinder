@@ -11,9 +11,10 @@
 		<div class="copyright">
 			<p>Généafinder
 			© 2019 Doptim </p>
+            <address id="address">3 ALL DES BARDES - 35760 SAINT GREGOIRE</address>
 		</div>
 		
-		<address id="address">3 ALL DES BARDES - 35760 SAINT GREGOIRE</address>
+
 		
 		
 		

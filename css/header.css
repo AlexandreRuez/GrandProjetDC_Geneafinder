@@ -1,0 +1,5 @@
+* {
+    font-family: Ubuntu;
+    src: url(../fonts/ubuntu-r-webfont.woff),
+        url(../fonts/ubuntu-r-webfont.woff2);
+  }
