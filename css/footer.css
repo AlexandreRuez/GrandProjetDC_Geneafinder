@@ -2,6 +2,7 @@
 
 #social > h4{
     text-align: center;
+    color: #66cc00;
 }
 #reseau  {
     margin: 0 auto;
@@ -29,19 +30,4 @@
     background-image: url(../img/twitter.svg);
 }
 
-.copyright {
-    display: flex;
-    width:  100%;
-    color: #66cc00;
-}
-
-.copyright > p {
-    width: 50%;
-}
-
-.copyright > address {
-    width: 50%;
-    color: #66cc00;
-    margin: auto 0;
-    text-align: right;
 }
