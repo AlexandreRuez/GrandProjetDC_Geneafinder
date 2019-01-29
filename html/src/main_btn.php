@@ -3,7 +3,7 @@
 	Diaporama
 	<i class="fas fa-play-circle fa-lg"></i></a>
 
-	<button type="button" id="image">Image</button>
+	<input type="checkbox" id="image">
 
 	<a href="#" id="ajouter">
 	Ajouter
@@ -21,15 +21,28 @@
 
 <script>
 
+
+
 var checkbox = document.getElementById('image');
+var btn_ajouter = document.getElementById('ajouter');
 var btn_deplacer = document.getElementById('deplacer');
 var btn_supprimer = document.getElementById('supprimer');
-var btn_ajouter = document.getElementById('ajouter');
 
-checkbox.addEventListener('click', function() {
+ if (checkbox.checked) {
+	alert();
 	btn_deplacer.style.display = "block";
 	btn_supprimer.style.display = "block";
 	btn_ajouter.style.marginRight = "10px";
+}
+
+checkbox.addEventListener('click', function() {
+	if (checkbox.checked) {
+	btn_deplacer.style.display = "block";
+	btn_supprimer.style.display = "block";
+} else {
+	btn_deplacer.style.display = "none";
+	btn_supprimer.style.display = "none";
+}
 })
 
 </script>
