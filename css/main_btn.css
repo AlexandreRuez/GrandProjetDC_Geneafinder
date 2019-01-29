@@ -34,17 +34,18 @@
 }
 
 .main_btn > a#ajouter {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 0;
 }
 
 .main_btn > a#deplacer {
     margin-left: 10px;
     margin-right: 10px;
+    display: none;
 }
 
 .main_btn > a#supprimer {
     margin-left: 10px;
+    display:none;
 }
 
 .main_btn > a > i {
