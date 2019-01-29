@@ -1,0 +1,41 @@
+/*FOOTER*/
+
+.copyright {
+    width:  100%;
+    text-align: right;
+    color: #66cc00
+    
+}
+
+#social > h4{
+    text-align: center;
+}
+#reseau  {
+    margin: 0 auto;
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+
+}
+#reseau a{
+    display: block;
+    font-size: 0;
+    margin: 0;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+
+}
+
+#facebook {
+    background-image: url(../img/facebook\(1\).svg);
+    
+}
+
+#twitter {
+    background-image: url(../img/twitter.svg);
+}
+
+#address {
+    color: #66cc00
+}
