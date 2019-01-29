@@ -28,13 +28,6 @@ var btn_ajouter = document.getElementById('ajouter');
 var btn_deplacer = document.getElementById('deplacer');
 var btn_supprimer = document.getElementById('supprimer');
 
- if (checkbox.checked) {
-	alert();
-	btn_deplacer.style.display = "block";
-	btn_supprimer.style.display = "block";
-	btn_ajouter.style.marginRight = "10px";
-}
-
 checkbox.addEventListener('click', function() {
 	if (checkbox.checked) {
 	btn_deplacer.style.display = "block";
