@@ -12,7 +12,6 @@
 .main_btn > a {
     background-color: #66cc00;
     padding: .5em .5em;
-    margin: 2em;
     font-family: 'Ubuntu', sans-serif;
     border: 1px solid #fff;
     display: flex;
@@ -28,6 +27,24 @@
     background-color: #fff;
     color: #66cc00;
     transition: all .5s;
+}
+
+.main_btn > a#diaporama {
+    margin-right: auto;
+}
+
+.main_btn > a#ajouter {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main_btn > a#deplacer {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main_btn > a#supprimer {
+    margin-left: 10px;
 }
 
 .main_btn > a > i {
