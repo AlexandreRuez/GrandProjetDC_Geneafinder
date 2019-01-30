@@ -1,16 +1,20 @@
 <header>
 	<nav class="nav_header">
 		<ul class="container_nav_header">
-			<li id="li-g"><a href=""><img src="../../../img/geneafinder-logo_nav.png"> G</a></li>
-			<li id="li-eneafinder"><a href=""><h1>Geneafinder</h1></a></li>
-			<li id="li-tutos"><a href="">tutos</a></li>
-			<li id="li-blog"><a href="">blog</a></li>
-			<li id="li-facebook"><a href="">Facebook</a></li>
-			<li id="li-twitter"><a href="">Twitter</a></li>
-			<li id="li-settings"><a href="">Settings</a></li>
-			<li id="li-deconnexion"><a href="">Déconnexion</a></li>
-			<li id="li-infos"><a href="">infos</a></li>
-			<li id="li-aide"><a href="">aide</a></li>
+			<div class="container_left">
+				<li class="li_header" id="li_g"><a href=""><img src=""> G</a></li>
+				<li class="li_header" id="li_eneafinder"><a href="">eneafinder</a></li>
+			</div>
+			<div class="container_right">
+				<li class="li_header" id="li_tutos"><a href="">tutos</a></li>
+				<li class="li_header" id="li_blog"><a href="">blog</a></li>
+				<li class="li_header" id="li_facebook"><a href="https://www.facebook.com/Geneafinder-541996719522534/"><span class="fa fa-facebook"></span></a></li>
+				<li class="li_header" id="li_twitter"><a href="https://twitter.com/geneafinder"><span class="fa fa-twitter"></span></a></li>
+				<li class="li_header" id="li_settings"><a href="/profil"><span class="fa fa-cog"></span></a></li>
+				<li class="li_header" id="li_deconnexion"><a href="/logout">déconnexion<span class="fa fa-sign-out" style="margin-left:5px"></span></a></li>
+				<li class="li_header" id="li_infos"><a href="/about"><span class="fa fa-info-circle"></span></a></li>
+				<li class="li_header" id="li_aide"><span class="fa fa-question-circle"></li>
+			</div>
 		</ul>
 	</nav>
 </header>
