@@ -12,7 +12,6 @@
 .main_btn > a {
     background-color: #66cc00;
     padding: .5em .5em;
-    margin: 2em;
     font-family: 'Ubuntu', sans-serif;
     border: 1px solid #fff;
     display: flex;
@@ -30,6 +29,25 @@
     transition: all .5s;
 }
 
+.main_btn > a#diaporama {
+    margin-right: auto;
+}
+
+.main_btn > a#deplacer {
+    margin-left: 20px;
+    margin-right: 10px;
+    display: none;
+}
+
+.main_btn > a#supprimer {
+    margin-left: 10px;
+    display:none;
+}
+
 .main_btn > a > i {
     margin: auto 5px auto 10px;
+}
+
+.main_btn input[type="checkbox"] {
+    visibility: visible;
 }

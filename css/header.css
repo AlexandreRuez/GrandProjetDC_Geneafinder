@@ -2,4 +2,46 @@
     font-family: Ubuntu;
     src: url(../fonts/ubuntu-r-webfont.woff),
         url(../fonts/ubuntu-r-webfont.woff2);
-  }
+}
+
+.container_nav_header {
+	list-style-type: none; 
+	display: flex;
+    justify-content: space-between;
+}
+
+.container_left, .container_right {
+	display: inline-block;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.li_header {
+	display: inline-block;
+	font-size: 18px;
+    line-height: 20px;
+}
+ .li_header > a {
+ 	text-decoration: none;
+ 	padding: 15px;
+ }
+
+ #li_g, #li_eneafinder {
+ 	font-weight: bold;
+ }
+
+ #li_g, #li_g > a:visited {
+ 	color: #4f8913;
+ }
+
+#li_eneafinder > a,  #li_eneafinder > a:visited,  
+#li_tutos > a, #li_tutos > a:visited,  
+#li_blog > a, #li_blog > a:visited,  
+#li_facebook > a, #li_facebook > a:visited,  
+#li_twitter > a, #li_twitter > a:visited,  
+#li_settings > a, #li_settings > a:visited,  
+#li_deconnexion > a, #li_deconnexion > a:visited,  
+#li_infos > a, #li_infos > a:visited, 
+#li_aide > a, #li_aide > a:visited {
+ 	color : #66cc00;
+ }

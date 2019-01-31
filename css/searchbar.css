@@ -1,24 +1,46 @@
 .searchbar{
-    background-color: orange;
+    background: url('../img/bg_searchbar.jpg');
+    background-size: cover;
+    background-color: lightgrey;
     text-align: center;
-    height: 400px;
-    padding: 0;
-    margin: 0;
+    height: 230px;
 }
 
-#site-search{
-    background-color: #FFF;
-    border-radius: 15px;
-    border: 2px solid #000;
+.mon-cercle{
+    float: left;
+    position: absolute;
+    top: 110px;
+    left: 150px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 15px solid #FFF;
+}
+
+.stk{
+    font-weight: bold;
+    color: #FFF;
+    margin-top: 40%;
+}
+
+.site-search{
+    background-color: rgba(255,255,255,0.8);
+    border: 0px solid #000;
     width: 500px;
     height: 50px;
-    margin-top: 150px;
+    margin-top: 100px;
+}
+
+input{
+    font-size: 18px;
+    font-weight: bold;
 }
 
 #btn{
     background-color: green;
-    border-radius: 50%;
-    border: 2px solid #000;
+    border: 0px solid #000;
     color: #FFF;
     padding: 10px;
+
+
 }

@@ -3,7 +3,7 @@
 
     include 'header.css';
     include 'searchbar.css';
-    include 'nav.css';
+    include 'main_nav.css';
     include 'main_btn.css';
     include 'main_galerie.css';
     include 'footer.css';
