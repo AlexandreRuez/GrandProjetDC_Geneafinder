@@ -4,6 +4,10 @@
         url(../fonts/ubuntu-r-webfont.woff2);
 }
 
+body, header, footer, html {
+	margin: 0;
+}
+
 .container_nav_header {
 	list-style-type: none; 
 	display: flex;
