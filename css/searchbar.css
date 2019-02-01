@@ -4,43 +4,74 @@
     background-color: lightgrey;
     text-align: center;
     height: 230px;
+    position: relative;
+    padding: 20px 0;
 }
 
-.mon-cercle{
-    float: left;
+.mon-cercle {
     position: absolute;
-    top: 110px;
-    left: 150px;
+    top: 65px;
+    left: 7%;
     border-radius: 50%;
     width: 100px;
     height: 100px;
     border: 15px solid #FFF;
 }
 
-.stk{
+.stk {
     font-weight: bold;
     color: #FFF;
     margin-top: 40%;
 }
 
-.site-search{
-    background-color: rgba(255,255,255,0.8);
-    border: 0px solid #000;
-    width: 500px;
+.search {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 90px;
     height: 50px;
-    margin-top: 100px;
 }
 
-input{
+.site-search{
+    background-color: rgba(255,255,255,0.9);
+    color: #a8a8a8;
+    border: 0;
+    width: 84%;
+    height: 50px;
     font-size: 18px;
     font-weight: bold;
+    padding: 10px;
 }
 
-#btn{
-    background-color: green;
-    border: 0px solid #000;
+.searchbar button {
+    border: 0;
     color: #FFF;
     padding: 10px;
+    width: 8%;
+    cursor: pointer;
+    transition: all .5s;
+}
 
+.searchbar button[name="search"] {
+    background-color: #66cc00;
+    transition: all .5s;
+}
 
+.searchbar button[name="search"]:hover {
+    background-color: rgba(96, 196, 0, .9);
+    transition: all .5s;
+}
+
+.searchbar button[name="delete"] {
+    background-color: #485f2b;
+    transition: all .5s;
+}
+
+.searchbar button[name="delete"]:hover {
+    background-color: rgba(58, 77, 30, .9);
+    transition: all .5s;
+}
+
+.searchbar i::before {
+    width: 5%;
 }
