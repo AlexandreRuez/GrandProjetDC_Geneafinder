@@ -1,3 +1,35 @@
+#btn_top-page {
+    display: none;
+    border: 2px solid #66cc00;
+    background-color: #fff;
+    width: fit-content;
+    padding: 5px 15px;
+    margin-left: auto;
+    position: fixed;
+    right: 2px;
+    bottom: 170px;
+    transition: all .5s;
+}
+
+#btn_top-page span {
+    font-size: 0;
+    margin: 0
+}
+
+#btn_top-page i {
+    color: #66cc00;
+}
+
+#btn_top-page:hover {
+    background-color: #66cc00;
+    transition: all .5s;
+}
+
+#btn_top-page:hover i {
+    color: #fff;
+    transition: all .5s;
+}
+
 /*FOOTER*/
 
 footer {
