@@ -1,7 +1,18 @@
 /*FOOTER*/
 
+footer {
+    padding: 40px 0;
+}
+
+footer hr {
+    height: 3px;
+    background-color: #66cc00;
+    border: 0;
+}
+
 #social > h4{
     text-align: center;
+    letter-spacing: 1px;
     color: #66cc00;
 }
 #reseau  {
