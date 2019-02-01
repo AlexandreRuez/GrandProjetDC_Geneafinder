@@ -11,27 +11,50 @@ body, header, footer, html {
 .container_nav_header {
 	list-style-type: none; 
 	display: flex;
-    justify-content: space-between;
+        padding:0;
 }
 
-.container_left, .container_right {
-	display: inline-block;
-	margin-right: 5%;
-	margin-left: 5%;
+.container_left {
+    width: 65%;
+    margin-left: 5%;
+}
+
+.container_left li a {
+    display: inline-block;
+    padding-top: 12px;
+}
+
+.container_right {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin-right: 5%;
+} 
+
+.container_right li {
+    margin: auto 0;
 }
 
 .li_header {
 	display: inline-block;
 	font-size: 18px;
-    line-height: 20px;
+        line-height: 20px;
 }
  .li_header > a {
  	text-decoration: none;
- 	padding: 15px;
  }
 
  #li_g, #li_eneafinder {
  	font-weight: bold;
+ }
+ 
+ #li_g::before {
+     content: url(../img/geneafinder-logo-nav.png);
+     display: block;
+     float: left;
+     height: 50px;
+     margin: 0;
+     padding: 0;
  }
 
  #li_g, #li_g > a:visited {

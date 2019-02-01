@@ -6,6 +6,8 @@
 
 .main_btn {
     display: flex;
+    margin: 20px auto;
+    width: 90%;
 }
 
 .main_btn > a:visited,
