@@ -7,8 +7,10 @@
                             <i class="fas fa-image fa-lg"></i>
                         </div>
                     </a>
-                    <label for="image-1"></label>
-                    <input type="checkbox" id="image-1" class="select">
+                    <label class="checkbox" for="image-1">
+                        <input type="checkbox" id="image-1">
+                        <span class="checkmark"></span>
+                    </label>
                 </article>
                
                 <article class="image">
@@ -19,8 +21,10 @@
                             <i class="fas fa-video fa-lg"></i>
                         </div>
                     </a>
-                    <label for="image-2"></label>
-                    <input type="checkbox" id="image-2" class="select">
+                    <label class="checkbox" for="image-2">
+                        <input type="checkbox" id="image-2">
+                        <span class="checkmark"></span>
+                    </label>
                 </article>
                
                <article class="image">
@@ -31,8 +35,10 @@
                             <i class="fas fa-video fa-lg"></i>
                         </div>
                     </a>
-                    <label for="image-3"></label>
-                    <input type="checkbox" id="image-3" class="select">
+                    <label class="checkbox" for="image-3">
+                        <input type="checkbox" id="image-3">
+                        <span class="checkmark"></span>
+                    </label>
                 </article>
                
                <article class="image">
@@ -43,8 +49,10 @@
                             <i class="fas fa-video fa-lg"></i>
                         </div>
                     </a>
-                    <label for="image-4"></label>
-                    <input type="checkbox" id="image-4" class="select">
+                    <label class="checkbox" for="image-4">
+                        <input type="checkbox" id="image-4">
+                        <span class="checkmark"></span>
+                    </label>
                 </article>
                
                <article class="image">
@@ -55,8 +63,10 @@
                             <i class="fas fa-file-alt fa-lg"></i>
                         </div>
                     </a>
-                    <label for="image-4"></label>
-                    <input type="checkbox" id="image-4" class="select">
+                    <label class="checkbox" for="image-5">
+                        <input type="checkbox" id="image-5">
+                        <span class="checkmark"></span>
+                    </label>
                 </article>
            
             </section>
