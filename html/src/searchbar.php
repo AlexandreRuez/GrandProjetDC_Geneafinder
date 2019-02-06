@@ -1,6 +1,6 @@
 <section class="searchbar">
     <div class="mon-cercle">
-        <p class="stk">60%</p>
+        <p class="stk">40%<br>restant</p>
     </div>
     <div class="search">
     <input type="search" class="site-search" name="q" aria-label="Search through site content" placeholder="Saisissez votre recherche">
