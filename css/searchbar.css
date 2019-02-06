@@ -9,17 +9,17 @@
 }
 
 .mon-cercle {
+    background: url('../img/logo-stk.svg');
     position: absolute;
-    top: 65px;
-    left: 7%;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    border: 15px solid #FFF;
+    top: 70px;
+    left: 9%;
+    width: 140px;
+    height: 140px;
 }
 
 .stk {
     font-weight: bold;
+    font-size: 1.5em;
     color: #FFF;
     margin-top: 40%;
 }
