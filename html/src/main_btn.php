@@ -1,4 +1,4 @@
-<section class="main_btn">
+<section class="main_btn" id="actions">
 	<a href="#" id="diaporama">
 	Diaporama
 	<i class="fas fa-play-circle fa-lg"></i></a>
@@ -36,6 +36,23 @@ checkbox.addEventListener('click', function() {
 	btn_deplacer.style.display = "none";
 	btn_supprimer.style.display = "none";
 }
-})
+});
+
+    
+    var barre_action = document.getElementById("actions");
+    
+    window.addEventListener("scroll", function() {
+    if (pageYOffset > 550) {
+        barre_action.style.position = "fixed";
+        barre_action.style.top = "0";
+        barre_action.style.marginBottom = "100px";
+        barre_action.style.marginTop = "0";
+        
+    } else {
+        barre_action.style.position = "relative";
+        barre_action.style.top = "auto";
+        barre_action.style.marginBottom = "20px";
+        barre_action.style.marginTop = "20px";
+    }})
 
 </script>
