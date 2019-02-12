@@ -2,13 +2,13 @@
     <div id="Album_left">  </div>
     <ul id="Album_list">
         <li id="Album_add"> <i class="fas fa-plus-circle fa-5x"></i> </li>
-        <li id="" class="navitem"> <p> Album 1 </p> </li>
-        <li id="navitem_1" class="navitem"> <p> Album 2 </p> </li>
-        <li id="navitem_2" class="navitem"> <p> Album 3 </p> </li>
-        <li id="navitem_3" class="navitem"> <p> Album 4 </p> </li>
-        <li id="navitem_4" class="navitem"> <p> Album 5 </p> </li>
-        <li id="" class="navitem"> <p> Album 6 </p> </li>
-        <li id="" class="navitem"> <p> Album 7 </p> </li>
+        <li id="" class="navitem"> <div style='background-image: url("../img/photo-1.jpg");'> </div> <p> Jean René 1974 </p> </li>
+        <li id="navitem_1" class="navitem"> <div style="background-image: url('../img/photo-2.jpg')"> </div> <p> Arrières grand parents </p> </li>
+        <li id="navitem_2" class="navitem"> <div style="background-image: url('../img/photo-3.jpg')"> </div> <p> Colette 1985 </p> </li>
+        <li id="navitem_3" class="navitem"> <div style="background-image: url('../img/photo-4.jpg')"> </div> <p> Vacances jacques 1960 </p> </li>
+        <li id="navitem_4" class="navitem"> <div style="background-image: url('../img/photo-5.jpg')"> </div> <p> Ski 1987 </p> </li>
+        <li id="" class="navitem"> <div style="background-image: url('../img/photo-6.jpg')"> </div> <p> Photos école </p> </li>
+        <li id="" class="navitem"> <div style="background-image: url('../img/photo-7.jpg')"> </div> <p> Photos vacances </p> </li>
     </ul>
     <div id="Album_right"> </div>
 </nav>

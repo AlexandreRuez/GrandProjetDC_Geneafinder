@@ -24,7 +24,7 @@
 
 .doc_information {
     position: absolute;
-    bottom: 10%;
+    bottom: 30%;
     left: 0;
     width: 100%;
     height: 25%;
@@ -51,7 +51,7 @@
 
 .galery article {
     position: relative;
-    width: 23%;
+    width: 18%;
     height: 23vw;
 }
 

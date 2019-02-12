@@ -68,5 +68,89 @@
                         <span class="checkmark"></span>
                     </label>
                 </article>
+               
+               <article class="image">
+                    <a href="#" class="">
+                        <img src="../img/produit-2.jpg" alt="">
+                        <div class="doc_information">
+                            <h3 class="doc_title">Des animaux</h3>
+                            <i class="fas fa-video fa-lg"></i>
+                        </div>
+                    </a>
+                    <label class="checkbox" for="image-4">
+                        <input type="checkbox" id="image-4">
+                        <span class="checkmark"></span>
+                    </label>
+                </article>
+               
+               <article class="image">
+                    <a href="#" class="">
+                        <img src="../img/produit-2.jpg" alt="">
+                        <div class="doc_information">
+                            <h3 class="doc_title">Des animaux</h3>
+                            <i class="fas fa-file-alt fa-lg"></i>
+                        </div>
+                    </a>
+                    <label class="checkbox" for="image-5">
+                        <input type="checkbox" id="image-5">
+                        <span class="checkmark"></span>
+                    </label>
+                </article>
+               
+               <article class="image">
+                    <a href="#" class="">
+                        <img src="../img/produit-2.jpg" alt="">
+                        <div class="doc_information">
+                            <h3 class="doc_title">Des animaux</h3>
+                            <i class="fas fa-video fa-lg"></i>
+                        </div>
+                    </a>
+                    <label class="checkbox" for="image-4">
+                        <input type="checkbox" id="image-4">
+                        <span class="checkmark"></span>
+                    </label>
+                </article>
+               
+               <article class="image">
+                    <a href="#" class="">
+                        <img src="../img/produit-2.jpg" alt="">
+                        <div class="doc_information">
+                            <h3 class="doc_title">Des animaux</h3>
+                            <i class="fas fa-file-alt fa-lg"></i>
+                        </div>
+                    </a>
+                    <label class="checkbox" for="image-5">
+                        <input type="checkbox" id="image-5">
+                        <span class="checkmark"></span>
+                    </label>
+                </article>
+               
+               <article class="image">
+                    <a href="#" class="">
+                        <img src="../img/produit-2.jpg" alt="">
+                        <div class="doc_information">
+                            <h3 class="doc_title">Des animaux</h3>
+                            <i class="fas fa-video fa-lg"></i>
+                        </div>
+                    </a>
+                    <label class="checkbox" for="image-4">
+                        <input type="checkbox" id="image-4">
+                        <span class="checkmark"></span>
+                    </label>
+                </article>
+               
+               <article class="image">
+                    <a href="#" class="">
+                        <img src="../img/produit-2.jpg" alt="">
+                        <div class="doc_information">
+                            <h3 class="doc_title">Des animaux</h3>
+                            <i class="fas fa-file-alt fa-lg"></i>
+                        </div>
+                    </a>
+                    <label class="checkbox" for="image-5">
+                        <input type="checkbox" id="image-5">
+                        <span class="checkmark"></span>
+                    </label>
+                </article>
            
             </section>

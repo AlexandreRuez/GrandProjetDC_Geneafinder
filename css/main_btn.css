@@ -8,6 +8,8 @@
     display: flex;
     margin: 20px auto;
     width: 90%;
+    padding: 10px 5%;
+    background-color: #fff;
 }
 
 .main_btn > a:visited,
@@ -15,7 +17,7 @@
     background-color: #66cc00;
     padding: .5em .5em;
     font-family: 'Ubuntu', sans-serif;
-    border: 1px solid #fff;
+    border: 1px solid #66cc00;
     display: flex;
     color: #fff;
     text-decoration: none;
@@ -52,4 +54,10 @@
 
 .main_btn input[type="checkbox"] {
     visibility: visible;
+}
+
+
+#actions {
+z-index: 10;
+transition: all .5s;
 }
