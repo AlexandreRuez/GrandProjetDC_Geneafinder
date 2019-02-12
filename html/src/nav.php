@@ -2,13 +2,13 @@
     <div id="Album_left">  </div>
     <ul id="Album_list">
         <li id="Album_add"> <i class="fas fa-plus-circle fa-5x"></i> </li>
-        <li id="" class="navitem"> <p> Album 1 </p> </li>
-        <li id="navitem_1" class="navitem"> <p> Album 2 </p> </li>
-        <li id="navitem_2" class="navitem"> <p> Album 3 </p> </li>
-        <li id="navitem_3" class="navitem"> <p> Album 4 </p> </li>
-        <li id="navitem_4" class="navitem"> <p> Album 5 </p> </li>
-        <li id="" class="navitem"> <p> Album 6 </p> </li>
-        <li id="" class="navitem"> <p> Album 7 </p> </li>
+        <li id="" class="navitem"> <p> Jean René 1974 </p> </li>
+        <li id="navitem_1" class="navitem"> <p> Arrières grand parents </p> </li>
+        <li id="navitem_2" class="navitem"> <p> Colette 1985 </p> </li>
+        <li id="navitem_3" class="navitem"> <p> Vacances jacques 1960 </p> </li>
+        <li id="navitem_4" class="navitem"> <p> Ski 1987 </p> </li>
+        <li id="" class="navitem"> <p> Potos école </p> </li>
+        <li id="" class="navitem"> <p> Photos vacances </p> </li>
     </ul>
     <div id="Album_right"> </div>
 </nav>
