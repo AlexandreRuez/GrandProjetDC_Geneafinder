@@ -1,4 +1,4 @@
-           <section class="galery flex_wrapper">
+           <section class="galery flex_wrapper" id="galerie">
                 <article class="image">
                     <a href="#" class="">
                         <img src="../img/produit-1.jpg" alt="">

@@ -28,19 +28,22 @@
 
     
     var barre_action = document.getElementById("actions");
+    var galerie = document.getElementById("galerie");
     
     window.addEventListener("scroll", function() {
-    if (pageYOffset > 520) {
+    if (pageYOffset > 490) {
         barre_action.style.position = "fixed";
         barre_action.style.top = "82px";
         barre_action.style.marginBottom = "100px";
         barre_action.style.marginTop = "0";
+        galerie.style.paddingTop = "110px";
         
     } else {
         barre_action.style.position = "relative";
         barre_action.style.top = "auto";
         barre_action.style.marginBottom = "20px";
         barre_action.style.marginTop = "20px";
+        galerie.style.paddingTop = "0";
     }});
 
 
