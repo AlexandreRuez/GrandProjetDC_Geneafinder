@@ -8,6 +8,8 @@
     display: flex;
     margin: 20px auto;
     width: 90%;
+    padding: 10px 5%;
+    background-color: #fff;
 }
 
 .main_btn > a:visited,
@@ -52,4 +54,9 @@
 
 .main_btn input[type="checkbox"] {
     visibility: visible;
+}
+
+
+#actions {
+z-index: 10;
 }
