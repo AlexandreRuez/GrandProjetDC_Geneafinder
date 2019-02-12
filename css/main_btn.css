@@ -59,4 +59,5 @@
 
 #actions {
 z-index: 10;
+transition: all .5s;
 }
