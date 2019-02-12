@@ -1,0 +1,48 @@
+.popup_deplacer {
+    background-color: #ccc;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.popup_deplacer form {
+    margin: 0;
+}
+
+.popup_deplacer label {
+    font-size: 1.5em;
+    margin-right: 10%;
+}
+
+.popup_deplacer select {
+    width: 70%;
+    height: 30px;
+}
+
+.popup_deplacer option {
+    font-size: 2em;
+}
+
+.popup_deplacer input {
+    display: block;
+    margin-left: auto;
+    margin-right: 33px;
+    margin-top: 30px;
+    
+    background-color: #66cc00;
+    padding: .5em .5em;
+    font-size: 1.2em;
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid #66cc00;
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.popup_deplacer input:hover {
+    border: 1px solid #66cc00;
+    background-color: #fff;
+    color: #66cc00;
+    transition: all .5s;
+}
