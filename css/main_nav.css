@@ -40,6 +40,7 @@
 #Album_add {
     border: 1px solid black;
     display: flex;
+    cursor: pointer;
     justify-content: space-around;
     align-items: center;
     width: 11vw;
