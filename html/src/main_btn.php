@@ -42,9 +42,9 @@ checkbox.addEventListener('click', function() {
     var barre_action = document.getElementById("actions");
     
     window.addEventListener("scroll", function() {
-    if (pageYOffset > 550) {
+    if (pageYOffset > 520) {
         barre_action.style.position = "fixed";
-        barre_action.style.top = "0";
+        barre_action.style.top = "82px";
         barre_action.style.marginBottom = "100px";
         barre_action.style.marginTop = "0";
         
