@@ -4,7 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+
     width: 90%;
     margin: 0 auto;
     font-family: sans-serif;
@@ -24,7 +24,7 @@
 
 .doc_information {
     position: absolute;
-    bottom: 30%;
+    bottom: 0%;
     left: 0;
     width: 100%;
     height: 25%;
@@ -46,13 +46,17 @@
 }
 
 .galery img {
-    width: 100%;
+    width: auto;
+    height: 100%;
+
 }
 
 .galery article {
     position: relative;
     width: 18%;
     height: 23vw;
+    overflow: hidden;
+    margin-bottom: 3%;
 }
 
 .galery article a {
@@ -113,5 +117,3 @@
 .checkbox input:checked ~ .checkmark:after {
   display: block;
 }
-
-
