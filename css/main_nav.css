@@ -51,6 +51,10 @@
     color: #00D404;
 }
 
+#Album_add i:hover {
+
+}
+
 .navitem {
     position: absolute;
     font-family: Helvetica;
