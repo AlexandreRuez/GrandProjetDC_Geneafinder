@@ -23,6 +23,7 @@
 		getNav();
 		getMain_btn();
                 getPopupDeplacer();
+                getPopupNouveauAlbum();
 		getMain_galerie();
 		getFooter();
 	?>

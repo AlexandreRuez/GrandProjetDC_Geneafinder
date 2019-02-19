@@ -1,36 +1,30 @@
-<div class="popup_deplacer" id="popup_deplacer">
+<div class="popup_nouveau_album" id="popup_nouveau_album">
     <form>
-        <label for="album">Album</label>
-        <select name="album" id="album">
-            <option value="jean-rene-1974">Jean René 1974</option>
-            <option value="arrieres-grands-parents">Arrières grand-parents</option>
-            <option value="colette-1985">Colette 1985</option>
-            <option value="vacances-jacques-1960">Vacances Jacques 1960</option>
-        </select>
+        <input type="text" name="nom_album" placeholder="Nom de l'album">
 
-        <input type="submit" value="Déplacer">
+        <input type="submit" value="Ajouter">
     </form>
     
-    <div class="croix" id="croix_deplacer"><i class="fas fa-times"></i></div>
+    <div class="croix" id="croix_nouveau"><i class="fas fa-times"></i></div>
 </div>
 
 
 <script>
     
-    var btn_deplacer = document.getElementById("deplacer");
-    var popup_deplacer = document.getElementById("popup_deplacer");
-    var croix_deplacer = document.getElementById("croix_deplacer");
+    var btn_nouveau = document.getElementById("Album_add");
+    var popup_nouveau_album = document.getElementById("popup_nouveau_album");
+    var croix_nouveau = document.getElementById("croix_nouveau");
     
-    btn_deplacer.addEventListener("click", function() {
-        if (popup_deplacer.style.display === "none") {
-            popup_deplacer.style.display = "block";
+    btn_nouveau.addEventListener("click", function() {
+        if (popup_nouveau_album.style.display === "none") {
+            popup_nouveau_album.style.display = "block";
         } else {
-            popup_deplacer.style.display = "none";
+            popup_nouveau_album.style.display = "none";
         }
     });
     
-    croix_deplacer.addEventListener("click", function (){
-        popup_deplacer.style.display = "none";
+    croix_nouveau.addEventListener("click", function (){
+        popup_nouveau_album.style.display = "none";
     });
     
     </script>

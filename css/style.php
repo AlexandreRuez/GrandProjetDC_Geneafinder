@@ -6,6 +6,7 @@
     include 'main_nav.css';
     include 'main_btn.css';
     include 'popup_deplacer.css';
+    include 'popup_nouveau_album.css';
     include 'main_galerie.css';
     include 'footer.css';
 ?>

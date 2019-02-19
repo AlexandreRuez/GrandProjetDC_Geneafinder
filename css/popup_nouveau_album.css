@@ -1,4 +1,4 @@
-.popup_deplacer {
+.popup_nouveau_album {
     display: none;
     position: fixed;
     top: 30%;
@@ -8,39 +8,36 @@
     background-color: rgba(255, 255, 255, .9);
     border: 1px solid #000;
     width: 400px;
-    height: 200px;  
+    height: 100px;  
     padding: 20px;
 }
 
-.popup_deplacer form {
-    margin: 0;
+.popup_nouveau_album form {
+    margin: auto 0;
     margin-top: 20px;
+    display: flex;
 }
 
-.popup_deplacer label {
-    font-size: 1.5em;
-    margin-right: 10%;
+.popup_nouveau_album input {
+    height: 20px;
+    width: 200px;
+    padding: 5px;
+    margin: auto 0;
 }
 
-.popup_deplacer select {
-    width: 70%;
-    height: 30px;
-}
 
-.popup_deplacer option {
-    font-size: 2em;
-}
-
-.popup_deplacer input {
+.popup_nouveau_album input[type="submit"] {
     display: block;
     margin-left: auto;
     margin-right: 33px;
-    margin-top: 30px;
+    height: 40px;
+    width: 100px;
     
     background-color: #66cc00;
     padding: .5em .5em;
     font-size: 1.2em;
     font-family: 'Ubuntu', sans-serif;
+    text-align: center;
     border: 1px solid #66cc00;
     display: flex;
     color: #fff;
@@ -48,7 +45,7 @@
     transition: all .5s;
 }
 
-.popup_deplacer input:hover {
+.popup_nouveau_album input[type="submit"]:hover {
     border: 1px solid #66cc00;
     background-color: #fff;
     color: #66cc00;
