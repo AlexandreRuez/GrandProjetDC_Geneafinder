@@ -51,6 +51,14 @@
     color: #00D404;
 }
 
+
+#Album_add i:hover {
+    color: white;
+    background-color: #00d404;
+    border: 1px solid #00D404;
+    border-radius: 50px;
+}
+
 .navitem {
     position: absolute;
     font-family: Helvetica;
