@@ -99,7 +99,7 @@
   height: 25px;
   width: 25px;
   background-color: #eee;
-  border: 3px solid #00D404;
+  border: 2px solid #00D404;
 }
 
 .checkbox:hover input ~ .checkmark {
