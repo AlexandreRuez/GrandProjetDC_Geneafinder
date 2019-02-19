@@ -18,6 +18,10 @@
         function getPopupDeplacer() {
             require_once 'src/popup_deplacer.php';
         }
+        
+        function getPopupNouveauAlbum() {
+            require_once 'src/popup_nouveau_album.php';
+        }
 
 	function getMain_galerie() {
 	require_once 'src/main_galerie.php';
