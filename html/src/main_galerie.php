@@ -3,7 +3,7 @@
                     <a href="#" class="">
                         <img src="../img/photo-1.jpg" alt="">
                         <div class="doc_information">
-                            <h3 class="doc_title">Des chats</h3>
+                            <h3 class="doc_title">Salon 1960</h3>
                             <i class="fas fa-image fa-lg"></i>
                         </div>
                     </a>
@@ -17,7 +17,7 @@
                     <a href="#" class="">
                         <img src="../img/photo-2.jpg" alt="">
                         <div class="doc_information">
-                            <h3 class="doc_title">Des animaux</h3>
+                            <h3 class="doc_title">Moi au rugby</h3>
                             <i class="fas fa-video fa-lg"></i>
                         </div>
                     </a>
@@ -31,7 +31,7 @@
                     <a href="#" class="">
                         <img src="../img/photo-3.jpg" alt="">
                         <div class="doc_information">
-                            <h3 class="doc_title">Des animaux</h3>
+                            <h3 class="doc_title">La vilaine 1958</h3>
                             <i class="fas fa-video fa-lg"></i>
                         </div>
                     </a>
@@ -45,7 +45,7 @@
                     <a href="#" class="">
                         <img src="../img/photo-4.jpg" alt="">
                         <div class="doc_information">
-                            <h3 class="doc_title">Des animaux</h3>
+                            <h3 class="doc_title">Famille Malcom</h3>
                             <i class="fas fa-video fa-lg"></i>
                         </div>
                     </a>
@@ -59,7 +59,7 @@
                     <a href="#" class="">
                         <img src="../img/photo-5.jpg" alt="">
                         <div class="doc_information">
-                            <h3 class="doc_title">Des animaux</h3>
+                            <h3 class="doc_title">Famille Roppers</h3>
                             <i class="fas fa-file-alt fa-lg"></i>
                         </div>
                     </a>
@@ -73,7 +73,7 @@
                     <a href="#" class="">
                         <img src="../img/photo-6.jpg" alt="">
                         <div class="doc_information">
-                            <h3 class="doc_title">Des animaux</h3>
+                            <h3 class="doc_title">Famille Habraham</h3>
                             <i class="fas fa-video fa-lg"></i>
                         </div>
                     </a>
@@ -87,7 +87,7 @@
                     <a href="#" class="">
                         <img src="../img/photo-7.jpg" alt="">
                         <div class="doc_information">
-                            <h3 class="doc_title">Des animaux</h3>
+                            <h3 class="doc_title">Nonnes 1947 </h3>
                             <i class="fas fa-file-alt fa-lg"></i>
                         </div>
                     </a>
@@ -101,7 +101,7 @@
                     <a href="#" class="">
                         <img src="../img/photo-8.jpg" alt="">
                         <div class="doc_information">
-                            <h3 class="doc_title">Des animaux</h3>
+                            <h3 class="doc_title">Mariage tonton Richard</h3>
                             <i class="fas fa-video fa-lg"></i>
                         </div>
                     </a>
@@ -115,7 +115,7 @@
                     <a href="#" class="">
                         <img src="../img/photo-9.jpg" alt="">
                         <div class="doc_information">
-                            <h3 class="doc_title">Des animaux</h3>
+                            <h3 class="doc_title">Chartre de Bretagne 1768 (croquis)</h3>
                             <i class="fas fa-file-alt fa-lg"></i>
                         </div>
                     </a>
@@ -129,7 +129,7 @@
                     <a href="#" class="">
                         <img src="../img/photo-10.jpg" alt="">
                         <div class="doc_information">
-                            <h3 class="doc_title">Des animaux</h3>
+                            <h3 class="doc_title">Gîte des lices 1923</h3>
                             <i class="fas fa-video fa-lg"></i>
                         </div>
                     </a>
@@ -143,7 +143,7 @@
                     <a href="#" class="">
                         <img src="../img/photo-11.jpg" alt="">
                         <div class="doc_information">
-                            <h3 class="doc_title">Des animaux</h3>
+                            <h3 class="doc_title">Arrières grands parents, 1912</h3>
                             <i class="fas fa-file-alt fa-lg"></i>
                         </div>
                     </a>
