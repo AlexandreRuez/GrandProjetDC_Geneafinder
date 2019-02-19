@@ -22,11 +22,7 @@
     var croix_deplacer = document.getElementById("croix_deplacer");
     
     btn_deplacer.addEventListener("click", function() {
-        if (popup_deplacer.style.display === "none") {
             popup_deplacer.style.display = "block";
-        } else {
-            popup_deplacer.style.display = "none";
-        }
     });
     
     croix_deplacer.addEventListener("click", function (){

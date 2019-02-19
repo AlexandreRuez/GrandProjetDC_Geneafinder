@@ -16,11 +16,7 @@
     var croix_nouveau = document.getElementById("croix_nouveau");
     
     btn_nouveau.addEventListener("click", function() {
-        if (popup_nouveau_album.style.display === "none") {
             popup_nouveau_album.style.display = "block";
-        } else {
-            popup_nouveau_album.style.display = "none";
-        }
     });
     
     croix_nouveau.addEventListener("click", function (){
