@@ -1,20 +1,20 @@
 
 <section class="main_btn" id="actions">
-	<a href="#" id="diaporama">
+	<btn href="#" id="diaporama">
 	Diaporama
-	<i class="fas fa-play-circle fa-lg"></i></a>
+	<i class="fas fa-play-circle fa-lg"></i></btn>
 
-	<a href="#" id="ajouter">
+	<btn href="#" id="ajouter">
 	Ajouter
-	<i class="fas fa-plus-circle fa-lg"></i></a>
+	<i class="fas fa-plus-circle fa-lg"></i></btn>
 
-	<a href="#" id="deplacer">
+	<btn href="#" id="deplacer">
 	Déplacer
-	<i class="fas fa-arrow-circle-right fa-lg"></i></a>
+	<i class="fas fa-arrow-circle-right fa-lg"></i></btn>
 
-	<a href="#" id="supprimer">
+	<btn href="#" id="supprimer">
 	Supprimer
-	<i class="fas fa-trash-alt"></i></a>
+	<i class="fas fa-trash-alt"></i></btn>
 
 </section>
 

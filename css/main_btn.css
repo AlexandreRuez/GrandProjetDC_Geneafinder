@@ -12,43 +12,44 @@
     background-color: #fff;
 }
 
-.main_btn > a:visited,
-.main_btn > a {
+.main_btn > btn {
+    display: block;
     background-color: #66cc00;
     padding: .5em .5em;
     font-family: 'Ubuntu', sans-serif;
     border: 1px solid #66cc00;
     display: flex;
     color: #fff;
+    cursor: pointer;
     text-decoration: none;
     transition: all .5s;
 }
 
-.main_btn > a:hover,
-.main_btn > a:focus,
-.main_btn > a:active {
+.main_btn > btn:hover,
+.main_btn > btn:focus,
+.main_btn > btn:active {
     border: 1px solid #66cc00;
     background-color: #fff;
     color: #66cc00;
     transition: all .5s;
 }
 
-.main_btn > a#diaporama {
+.main_btn > btn#diaporama {
     margin-right: auto;
 }
 
-.main_btn > a#deplacer {
+.main_btn > btn#deplacer {
     margin-left: 20px;
     margin-right: 10px;
     display: none;
 }
 
-.main_btn > a#supprimer {
+.main_btn > btn#supprimer {
     margin-left: 10px;
     display:none;
 }
 
-.main_btn > a > i {
+.main_btn > btn > i {
     margin: auto 5px auto 10px;
 }
 

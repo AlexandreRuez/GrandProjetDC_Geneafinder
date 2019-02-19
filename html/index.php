@@ -22,6 +22,7 @@
 		getSearchbar();
 		getNav();
 		getMain_btn();
+                getPopupDeplacer();
 		getMain_galerie();
 		getFooter();
 	?>
