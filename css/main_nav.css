@@ -45,18 +45,23 @@
     align-items: center;
     width: 11vw;
     height: 11vw;
+    transition: all .5s;
 }
 
 #Album_add i{
     color: #00D404;
+    transition: all .5s;
 }
 
+#Album_add:hover {
+    background-color: #00D404;
+        border: 1px solid #00D404;
+        transition: all .5s;
+}
 
-#Album_add i:hover {
+#Album_add:hover i{
     color: white;
-    background-color: #00d404;
-    border: 1px solid #00D404;
-    border-radius: 50px;
+    transition: all .5s;
 }
 
 .navitem {
