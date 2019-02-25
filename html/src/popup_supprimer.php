@@ -9,7 +9,7 @@
     <br><br>
 
     <input type="radio" id="sup-def" name="delete" value="sup_definitif">
-    <label for="sup-def">Supprimer défénitivement</label>
+    <label for="sup-def">Supprimer définitivement</label>
 
     <br>
 
