@@ -1,17 +1,47 @@
-html {
-    font-family: 'ubuntu',sans-serif;
-    font-size: 16px;
+.popup_supprimer {
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: calc(50% - 200px);
+    z-index: 10000;
+    
+    background-color: rgba(255, 255, 255, .9);
+    border: 1px solid #000;
+    width: 400px;
+    height: 210px;  
+    padding: 20px;
+}
+
+.popup_supprimer label {
+    font-size: 1.4em;
 }
 
 
-.text__bottom {
-    margin: 0px;
-    padding: 15px;
-    font-size: 12px;
-
-
+.popup_supprimer p {
+    margin: 10px;
+    font-size: .8em;
 }
 
-.button__delete {
-    margin: 50px 200px;
+.popup_supprimer input[type="submit"] {
+    display: block;
+    margin-left: auto;
+    margin-right: 33px;
+    margin-top: 30px;
+    
+    background-color: #66cc00;
+    padding: .5em .5em;
+    font-size: 1.2em;
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid #66cc00;
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.popup_supprimer input[type="submit"]:hover {
+    border: 1px solid #66cc00;
+    background-color: #fff;
+    color: #66cc00;
+    transition: all .5s;
 }

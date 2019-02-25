@@ -1,45 +1,38 @@
-<!doctype html>
+<div class="popup_supprimer" id="popup_supprimer">
 
-<html lang="fr">
+<form>
 
-<title>bouton Supprimer</title>
-
-
-<link rel="popup_supprimer" href="">
-
-</head>
-
-
-<body>
-
-
-<form action="#" id="#" method="POST">
-
-
-    <input type="radio" name="delete" value="deplace" checked>
-    <label for="marrons">Supprimer de l'album</label>
-    <p class="text__bottom">Les documents seront placés dans l'album par défaut</p>
+    <input type="radio" id="sup-album" name="delete" value="sup_album" checked>
+    <label for="sup-album">Supprimer de l'album</label>
+    <p id="supp_p">Les documents seront placés dans l'album par défaut</p>
 
     <br><br>
 
-    <input type="radio" name="delete" value="definitif">
-    <label for="bleus">Supprimer défénitivement</label>
+    <input type="radio" id="sup-def" name="delete" value="sup_definitif">
+    <label for="sup-def">Supprimer défénitivement</label>
 
     <br>
 
-    <button type="button" name="delete" class="button__delete">Supprimer</button>
+    <input type="submit" name="delete" class="button_delete" value="Supprimer">
 
 </form>
+    
+    <div class="croix" id="croix_supprimer"><i class="fas fa-times"></i></div>
 
+</div>
 
-
-
-
-
-
-
-
-
-</body>
-
-</html>
+<script>
+    
+    var btn_supprimer = document.getElementById("supprimer");
+    var popup_supprimer = document.getElementById("popup_supprimer");
+    var croix_supprimer = document.getElementById("croix_supprimer");
+    
+    btn_supprimer.addEventListener("click", function() {
+            popup_supprimer.style.display = "block";
+    });
+    
+    croix_supprimer.addEventListener("click", function (){
+        popup_supprimer.style.display = "none";
+    });
+    
+    </script>

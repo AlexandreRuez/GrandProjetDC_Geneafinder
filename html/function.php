@@ -22,6 +22,10 @@
         function getPopupNouveauAlbum() {
             require_once 'src/popup_nouveau_album.php';
         }
+        
+        function getPopupSupprimer() {
+            require_once 'src/popup_supprimer.php';
+        }
 
 	function getMain_galerie() {
 	require_once 'src/main_galerie.php';

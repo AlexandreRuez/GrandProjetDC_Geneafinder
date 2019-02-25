@@ -24,6 +24,7 @@
 		getMain_btn();
                 getPopupDeplacer();
                 getPopupNouveauAlbum();
+                getPopupSupprimer();
 		getMain_galerie();
 		getFooter();
 	?>
