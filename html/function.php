@@ -14,6 +14,10 @@
 	function getMain_btn() {
 	require_once 'src/main_btn.php';
 	}
+
+	function getDiapo() {
+            require_once 'src/diaporama.php';
+        }
         
         function getPopupDeplacer() {
             require_once 'src/popup_deplacer.php';
