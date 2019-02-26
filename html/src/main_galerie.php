@@ -1,5 +1,5 @@
            <section class="galery flex_wrapper" id="galerie">
-                <article class="image">
+                <article class="image" id="image-1">
                     <a href="#" class="">
                         <img src="../img/photo-1.jpg" alt="">
                         <div class="doc_information">
@@ -12,8 +12,12 @@
                         <span class="checkmark"></span>
                     </label>
                 </article>
+               <div class="lightbox" id="light-image-1">
+                        <img src="../img/photo-1.jpg">
+                    <div class="croix_image" id="croix_1"><i class="fas fa-times"></i></div>
+                    </div>
 
-                <article class="image">
+                <article class="image" id="image-2">
                     <a href="#" class="">
                         <img src="../img/photo-2.jpg" alt="">
                         <div class="doc_information">
@@ -26,8 +30,12 @@
                         <span class="checkmark"></span>
                     </label>
                 </article>
+               <div class="lightbox" id="light-image-2">
+                        <img src="../img/photo-2.jpg">
+                    <div class="croix_image" id="croix_2"><i class="fas fa-times"></i></div>
+                    </div>
 
-               <article class="image">
+               <article class="image" id="image-3">
                     <a href="#" class="">
                         <img src="../img/photo-3.jpg" alt="">
                         <div class="doc_information">
@@ -40,8 +48,12 @@
                         <span class="checkmark"></span>
                     </label>
                 </article>
+               <div class="lightbox" id="light-image-3">
+                        <img src="../img/photo-3.jpg">
+                    <div class="croix_image" id="croix_3"><i class="fas fa-times"></i></div>
+                    </div>
 
-               <article class="image">
+               <article class="image" id="image-4">
                     <a href="#" class="">
                         <img src="../img/photo-4.jpg" alt="">
                         <div class="doc_information">
@@ -54,8 +66,12 @@
                         <span class="checkmark"></span>
                     </label>
                 </article>
+               <div class="lightbox" id="light-image-4">
+                        <img src="../img/photo-4.jpg">
+                    <div class="croix_image" id="croix_4"><i class="fas fa-times"></i></div>
+                    </div>
 
-               <article class="image">
+               <article class="image" id="image-5">
                     <a href="#" class="">
                         <img src="../img/photo-5.jpg" alt="">
                         <div class="doc_information">
@@ -68,8 +84,12 @@
                         <span class="checkmark"></span>
                     </label>
                 </article>
+               <div class="lightbox" id="light-image-5">
+                        <img src="../img/photo-5.jpg">
+                    <div class="croix_image"" id="croix_5"><i class="fas fa-times"></i></div>
+                    </div>
 
-               <article class="image">
+               <article class="image" id="image-6">
                     <a href="#" class="">
                         <img src="../img/photo-6.jpg" alt="">
                         <div class="doc_information">
@@ -82,8 +102,12 @@
                         <span class="checkmark"></span>
                     </label>
                 </article>
+               <div class="lightbox" id="light-image-6">
+                        <img src="../img/photo-6.jpg">
+                    <div class="croix_image" id="croix_6"><i class="fas fa-times"></i></div>
+                    </div>
 
-               <article class="image">
+               <article class="image" id="image-7">
                     <a href="#" class="">
                         <img src="../img/photo-7.jpg" alt="">
                         <div class="doc_information">
@@ -96,8 +120,12 @@
                         <span class="checkmark"></span>
                     </label>
                 </article>
+               <div class="lightbox" id="light-image-7">
+                        <img src="../img/photo-7.jpg">
+                    <div class="croix_image" id="croix_7"><i class="fas fa-times"></i></div>
+                    </div>
 
-               <article class="image">
+               <article class="image" id="image-8">
                     <a href="#" class="">
                         <img src="../img/photo-8.jpg" alt="">
                         <div class="doc_information">
@@ -110,8 +138,12 @@
                         <span class="checkmark"></span>
                     </label>
                 </article>
+               <div class="lightbox" id="light-image-8">
+                        <img src="../img/photo-8.jpg">
+                    <div class="croix_image" id="croix_8"><i class="fas fa-times"></i></div>
+                    </div>
 
-               <article class="image">
+               <article class="image" id="image-9">
                     <a href="#" class="">
                         <img src="../img/photo-9.jpg" alt="">
                         <div class="doc_information">
@@ -124,8 +156,12 @@
                         <span class="checkmark"></span>
                     </label>
                 </article>
+               <div class="lightbox" id="light-image-9">
+                        <img src="../img/photo-9.jpg">
+                    <div class="croix_image" id="croix_9"><i class="fas fa-times"></i></div>
+                    </div>
 
-               <article class="image">
+               <article class="image" id="image-10">
                     <a href="#" class="">
                         <img src="../img/photo-10.jpg" alt="">
                         <div class="doc_information">
@@ -138,8 +174,12 @@
                         <span class="checkmark"></span>
                     </label>
                 </article>
+               <div class="lightbox" id="light-image-10">
+                        <img src="../img/photo-10.jpg">
+                    <div class="croix_image" id="croix_10"><i class="fas fa-times"></i></div>
+                    </div>
 
-               <article class="image">
+               <article class="image" id="image-11">
                     <a href="#" class="">
                         <img src="../img/photo-11.jpg" alt="">
                         <div class="doc_information">
@@ -152,5 +192,31 @@
                         <span class="checkmark"></span>
                     </label>
                 </article>
+               <div class="lightbox" id="light-image-11">
+                        <img src="../img/photo-11.jpg">
+                    <div class="croix_image" id="croix_11"><i class="fas fa-times"></i></div>
+                    </div>
 
             </section>
+
+<script>
+    
+    var img = document.getElementsByClassName("image");
+    var croix_img = document.getElementsByClassName("croix_image");
+    var lightbox = document.getElementsByClassName("lightbox");
+    
+    console.log(lightbox);
+    for(var i=0; i<img.length; i++) {
+    img[i].addEventListener('click', function() {
+    
+        lightbox[i].style.display = "block";
+    } 
+    );
+    
+    croix_img[i].addEventListener('click', function() {
+        lightbox[i].style.display = "none";
+    });
+}
+
+
+</script>

@@ -1,6 +1,6 @@
 <a href="#top-page" id="btn_top-page"><span>Vers le haut de la page</span><i class="fas fa-angle-up fa-lg"></i></a>
 <script>
-    var checkboxs = document.querySelectorAll('input[type="checkbox"]');
+    var checkboxs = document.getElementsByClassName('input_check');
     var btn_ajouter = document.getElementById('ajouter');
     var btn_deplacer = document.getElementById('deplacer');
     var btn_supprimer = document.getElementById('supprimer');
