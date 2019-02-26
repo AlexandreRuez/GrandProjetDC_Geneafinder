@@ -17,6 +17,8 @@
     <title>Galerie</title>
 </head>
 <body>
+    
+    <div id="top-page" ></div>
 	<?php
 		getHeader();
 		getSearchbar();
