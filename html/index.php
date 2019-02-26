@@ -17,11 +17,14 @@
     <title>Galerie</title>
 </head>
 <body>
+    
+    <div id="top-page" ></div>
 	<?php
 		getHeader();
 		getSearchbar();
 		getNav();
 		getMain_btn();
+		getDiapo();
                 getPopupDeplacer();
                 getPopupNouveauAlbum();
                 getPopupSupprimer();
