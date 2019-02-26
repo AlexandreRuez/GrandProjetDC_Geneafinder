@@ -24,6 +24,7 @@
 		getSearchbar();
 		getNav();
 		getMain_btn();
+		getDiapo();
                 getPopupDeplacer();
                 getPopupNouveauAlbum();
                 getPopupSupprimer();
