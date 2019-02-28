@@ -1,11 +1,15 @@
 <a href="#top-page" id="btn_top-page"><span>Vers le haut de la page</span><i class="fas fa-angle-up fa-lg"></i></a>
 <script>
+
     var checkboxs = document.getElementsByClassName('input_check');
+
+    var checkboxs = document.querySelectorAll('input.input_check[type="checkbox"]');
+
     var btn_ajouter = document.getElementById('ajouter');
     var btn_deplacer = document.getElementById('deplacer');
     var btn_supprimer = document.getElementById('supprimer');
     var count = 0;
-    
+
     checkboxs.forEach(function (elem) {
     elem.addEventListener("click", function () {
         if (elem.checked === true)
@@ -23,7 +27,7 @@
                 btn_supprimer.style.display = "none";
         }
     ;
-    })
+    });
 });   
 
     
